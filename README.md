@@ -2,6 +2,10 @@
 
 This repository contains automation tools for three of Quizlet's activities. These scripts date back to 2020-2022 and are not currently being supported.
 
+### Stack
+
+This project consists of individual Python scripts. They utilize Selenium for automated web navigation and BeautifulSoup4 for web scraping and parsing. Each of the below scripts logs the user into their Quizlet account, prompts the user for a Quizlet set, and creates a dictionary of matching terms and definitions for the set.
+
  ### Gravity
 
  Gravity was a Quizlet game where the user must type in vocabulary words corresponding to definitions contained within asteroids that fall toward the user. The user loses if an asteroid falls out of view of the user before they type in the correct term twice. As levels progress, the asteroids fall faster and faster.
