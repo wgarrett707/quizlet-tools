@@ -8,13 +8,13 @@ This project consists of individual Python scripts. They utilize Selenium for au
 
  ### Gravity
 
- Gravity was a Quizlet game where the user must type in vocabulary words corresponding to definitions contained within asteroids that fall toward the user. The user loses if an asteroid falls out of view of the user before they type in the correct term twice. As levels progress, the asteroids fall faster and faster.
+ Gravity was a Quizlet game where the user must type in vocabulary words corresponding to definitions contained within asteroids that fall toward the user. The user loses if an asteroid falls out of view of the user's screen before they type in the correct term twice. As levels progress, the asteroids fall faster and faster.
 
  This game was [retired](https://bfamercury.org/6555/news/quizlets-shift-to-quizlet-plus/#:~:text=%E2%80%9CGravity%2C%E2%80%9D%20however%2C%20a,been%20removed%20completely%20from%20Quizlet.) by Quizlet in 2023. You can, however, view the script in-action [here](https://www.youtube.com/watch?v=6Z_8w3640I4&ab_channel=wgar).
 
- This script works by waiting until an asteroid element appears within the DOM, finding its match using the aforementioned dictionary of vocabulary terms, and entering the corresponding text within the input box at the bottom of the screen. At lower levels of the game, the script could eliminate asteroids before they are even fully visible to the user. 
+ This script works by waiting until an asteroid element appears within the DOM, finding its match using the aforementioned dictionary of vocabulary terms, and entering the corresponding text within the input box at the bottom of the screen. At lower levels of the game, the script could eliminate asteroids before they were even visible to the user. 
 
- The highest achieveable score on Gravity was the 32-bit unsigned integer limit of $`2^{32} - 1`$ or $`4,294,967,295`$. At higher levels, the asteroids moved too fast for human users to be able to achieve a score anywhere near that level, unless they used a flashcard set with [laughably short vocabulary terms, like this user did](https://www.youtube.com/watch?v=tHDpB1PP0kY&t=78s&ab_channel=hyperupcall).
+ The highest achieveable score on Gravity was the 32-bit unsigned integer limit of $`2^{32} - 1`$ or $`4,294,967,295`$. At higher levels, the asteroids moved too fast for human users to be able to achieve a score anywhere near that number, unless they used a flashcard set with [laughably short vocabulary terms, like this user did](https://www.youtube.com/watch?v=tHDpB1PP0kY&t=78s&ab_channel=hyperupcall).
 
 You can see my script reaching this score [in this video](https://www.youtube.com/watch?v=_fPJYLcG208&ab_channel=wgar) with a normal Quizlet set. Note that the game allows you to surpass this score, but it only saves to the leaderboard as the 32-bit unsigned integer limit.
 
